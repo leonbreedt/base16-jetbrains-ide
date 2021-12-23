@@ -46,14 +46,185 @@
       "Menu.borderColor": "A1",
       "Borders.color": "A1",
       "Component.borderColor": "A1",
-      "Menu.separatorColor": "A1"
+      "Menu.separatorColor": "A1",
+
+      "infoForeground": "A2",
+
+      "selectionBackground": "A1",
+      "selectionForeground": "A7",
+      "selectionInactiveBackground": "A1",
+      "selectionBackgroundInactive": "A1",
+
+      "lightSelectionBackground": "A1",
+      "lightSelectionForeground": "A3",
+      "lightSelectionInactiveBackground": "A1",
+      "lightSelectionInactiveForeground":"A3",
+
+      "disabledBackground": "A1",
+      "inactiveBackground": "A1",
+
+      "disabledForeground": "A2",
+      "disabledText": "A2",
+      "inactiveForeground": "A2",
+
+      "acceleratorForeground": "A3",
+      "acceleratorSelectionForeground": "A3",
+
+      "errorForeground": "D1",
+
+      "disabledBorderColor": "A2",
+
+      "focusColor": "A2",
+      "focusedBorderColor": "A1",
+
+      "separatorForeground": "A1",
+      "separatorColor": "A1",
+      "lineSeparatorColor": "A1",
+
+      "modifiedItemForeground": "B1"
     },
-    "EditorPane.inactiveBackground": "A1",
+
+    "EditorPane": {
+      "inactiveBackground": "A1"
+    },
+
     "EditorTabs": {
       "underlinedTabBackground": "A2",
       "inactiveUnderlineColor": "A1",
       "underlineColor": "A3",
       "borderColor": "A0"
+    },
+
+    "Button": {
+      "startBackground": "B0",
+      "endBackground": "B0",
+      "startBorderColor": "B0",
+      "endBorderColor": "B0",
+      "focusedBorderColor": "B1",
+
+      "default": {
+        "foreground": "B2",
+        "startBackground": "A1",
+        "endBackground": "A1",
+        "startBorderColor": "A1",
+        "endBorderColor": "A1",
+        "focusedBorderColor": "A1",
+        "shadowColor": "A1",
+        "focusColor": "B1"
+      }
+    },
+
+    "Component": {
+      "errorFocusColor": "D3",
+      "inactiveErrorFocusColor": "D2",
+      "warningFocusColor": "D0",
+      "inactiveWarningFocusColor": "D0",
+      "iconColor": "A3",
+      "hoverIconColor": "A4"
+    },
+
+    "FileColor": {
+      "Yellow": "D0",
+      "Green": "C0",
+      "Blue": "B1",
+      "Violet": "B0",
+      "Orange": "D1",
+      "Rose": "A2"
+    },
+
+    "TabbedPane": {
+      "underlineColor": "A1",
+      "disabledUnderlineColor": "A2",
+      "contentAreaColor": "A1"
+    },
+
+    "TableHeader.cellBorder": "3,0,3,0",
+
+    "ToolWindow": {
+      "Header": {
+        "inactiveBackground": "A1",
+        "background": "A0",
+        "borderColor": "A1"
+      },
+      "HeaderTab": {
+        "underlinedTabBackground": "A2",
+        "selectedInactiveBackground": "A2",
+        "hoverBackground": "A2",
+        "hoverInactiveBackground": "A2"
+      },
+
+      "Button": {
+        "hoverBackground": "A1",
+        "selectedBackground": "A1"
+      }
+    },
+
+    "Plugins": {
+      "background": "A1",
+      "disabledForeground": "A2",
+
+      "Tab": {
+        "selectedForeground": "A3",
+        "selectedBackground": "A1",
+        "hoverBackground": "A1"
+      },
+
+      "SearchField.borderColor": "A1",
+      "SearchField.background": "A1",
+      "SectionHeader.background": "A1",
+      "tagBackground": "A1",
+      "tagForeground": "A3",
+
+      "Button": {
+        "installForeground": "A3",
+        "installBorderColor":"A1",
+        "installFillForeground": "A3",
+        "installFillBackground": "A1",
+        "updateForeground":"A3",
+        "updateBackground": "A1",
+        "updateBorderColor": "A1"
+      }
+    },
+
+    "Tree.rowHeight": 20,
+
+    "WelcomeScreen": {
+      "Projects.background": "A1",
+      "Projects.selectionInactiveBackground": "A2",
+      "separatorColor": "A1"
+    }
+  },
+
+  "icons": {
+    "ColorPalette": {
+      "Actions.Grey": "A2",
+      "Actions.Red": "D0",
+      "Actions.Yellow": "D3",
+      "Actions.Green": "C0",
+      "Actions.Blue": "B1",
+      "Actions.GreyInline.Dark": "A1",
+
+      "Objects.Grey": "A2",
+      "Objects.RedStatus": "D0",
+      "Objects.Red": "D0",
+      "Objects.Pink": "D0",
+      "Objects.Yellow": "D3",
+      "Objects.Green": "C0",
+      "Objects.Blue": "B1",
+      "Objects.Purple": "B1",
+      "Objects.BlackText": "A1",
+      "Objects.YellowDark": "D0",
+      "Objects.GreenAndroid": "C0",
+
+      "Checkbox.Background.Default.Dark": "A1",
+      "Checkbox.Border.Default.Dark": "A2",
+      "Checkbox.Foreground.Selected.Dark": "A7",
+      "Checkbox.Focus.Wide.Dark": "A1",
+      "Checkbox.Focus.Thin.Default.Dark": "A7",
+      "Checkbox.Focus.Thin.Selected.Dark": "A7",
+      "Checkbox.Background.Disabled.Dark": "A1",
+      "Checkbox.Border.Disabled.Dark": "A1",
+      "Checkbox.Foreground.Disabled.Dark": "A7"
     }
   }
 }
