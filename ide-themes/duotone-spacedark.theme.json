@@ -1,0 +1,59 @@
+{
+  "name": "Base2Tone SpaceDark",
+  "dark": true,
+  "author": "Port by Leon Breedt. Colors by Simurai (https://simurai.com/projects/2016/01/01/duotone-themes).",
+  "editorScheme": "/duotone-spacedark.xml",
+  "colors": {
+    "A0": "#24242e",
+    "A1": "#333342",
+    "A2": "#515167",
+    "A3": "#5b5b76",
+    "A4": "#737391",
+    "A5": "#8a8aa3",
+    "A6": "#a1a1b5",
+    "A7": "#b8b8c7",
+    "B0": "#5151e6",
+    "B1": "#6363ee",
+    "B2": "#7676f4",
+    "B3": "#767693",
+    "B4": "#8a8aad",
+    "B5": "#aaaaca",
+    "B6": "#cecee3",
+    "B7": "#ebebff",
+    "C0": "#7b736f",
+    "C1": "#8e8580",
+    "C2": "#a09792",
+    "C3": "#b1a9a5",
+    "C4": "#c3bbb7",
+    "C5": "#d8cfcb",
+    "C6": "#eae4e1",
+    "C7": "#fbf9f9",
+    "D0": "#b25424",
+    "D1": "#cb5c25",
+    "D2": "#dd672c",
+    "D3": "#e66e33",
+    "D4": "#ec7336",
+    "D5": "#f37b3f",
+    "D6": "#f88349",
+    "D7": "#fe8c52"
+  },
+  "ui": {
+    "*": {
+      "background": "A0",
+      "foreground": "A7",
+      "borderColor": "A1",
+      "MenuBar.borderColor": "A1",
+      "Menu.borderColor": "A1",
+      "Borders.color": "A1",
+      "Component.borderColor": "A1",
+      "Menu.separatorColor": "A1"
+    },
+    "EditorPane.inactiveBackground": "A1",
+    "EditorTabs": {
+      "underlinedTabBackground": "A2",
+      "inactiveUnderlineColor": "A1",
+      "underlineColor": "A3",
+      "borderColor": "A0"
+    }
+  }
+}
